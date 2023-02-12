@@ -3,7 +3,6 @@
 ######################################
 # Authors: Asta M. Rasmussen & Ingrid S. M. Backman
 
-
 #########################
 ##### Load packages #####
 
@@ -136,7 +135,7 @@ out_fun$answer_grep <- unlist(lapply(1:length(out_fun$correct_answer),
 #words_df <- words_df[-drop_idx,]
 #words_df$token_size <- NA
 #words_df$token_size[which(words_df$set == "token_words")] <- rep(rep(1:4, 10)[order(rep(1:4, 10))], 30)
-#write.csv(words_df, "/Users/au546900/Documents/Other/hackathon/scale_oversight_2023/all_words_output.csv")
+#write.csv(words_df, "/your/path/all_words_output.csv")
 
 
 ###############################
